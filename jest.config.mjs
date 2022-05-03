@@ -1,10 +1,6 @@
-import {fileURLToPath} from 'url';
+import { fileURLToPath } from "node:url";
 
 export default {
-  rootDir: fileURLToPath(new URL('.', import.meta.url)),
-  transform: {
-    '^.+\\.[jt]sx?$': '@swc/jest',
-  },
-  testPathIgnorePatterns: ['<rootDir>/esm', '.*/dist/.*'],
-  projects: ['<rootDir>/esm', '<rootDir>'],
+  rootDir: fileURLToPath(new URL(".", import.meta.url)),
+  projects: ["<rootDir>/jest.config.cjs.mjs", "<rootDir>/jest.config.esm.mjs"],
 };

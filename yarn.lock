@@ -1404,9 +1404,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cjs-pkg@workspace:cjs":
+"cjs-pkg@workspace:packages/cjs":
   version: 0.0.0-use.local
-  resolution: "cjs-pkg@workspace:cjs"
+  resolution: "cjs-pkg@workspace:packages/cjs"
   languageName: unknown
   linkType: soft
 
@@ -1652,9 +1652,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esm-pkg@workspace:esm":
+"esm-pkg@workspace:packages/esm":
   version: 0.0.0-use.local
-  resolution: "esm-pkg@workspace:esm"
+  resolution: "esm-pkg@workspace:packages/esm"
   languageName: unknown
   linkType: soft
 
