@@ -1,0 +1,7 @@
+{
+  "name": "esm-pkg",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "cjs-pkg",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "workspaces": [
+    "cjs",
+    "esm"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@swc/core": "^1.2.175",
+    "@swc/jest": "^0.2.20",
+    "@types/jest": "^27.5.0",
+    "jest": "28",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "build": "yarn workspaces foreach run build"
+  },
+  "packageManager": "yarn@3.2.0"
+}
