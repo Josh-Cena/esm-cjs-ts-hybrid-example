@@ -5,6 +5,6 @@ export default {
   transform: {
     '^.+\\.[jt]sx?$': '@swc/jest',
   },
-  testPathIgnorePatterns: ['<rootDir>/esm', '.*/dist/.*'],
-  projects: ['<rootDir>/esm', '<rootDir>'],
+  testPathIgnorePatterns: ['.*/dist/.*'],
+  extensionsToTreatAsEsm: ['.ts'],
 };
